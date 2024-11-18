@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome sds -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styeles.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo">Educa.MS</a>
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search_courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search-box"></button>
+            </form>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+            <div class="profile">
+                <img src="profile.png" alt="">
+                <h3>Amit Maurya</h3>
+                <span>Student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header section end -->
+
+    <!-- side bar section starts -->
+    <div class="side-bar">
+        <div id="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="man_4825087.png" alt="">
+            <h3>Amit Maurya</h3>
+            <span>Student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+            <a href="course.html"><i class="fas fa-graduation-cap"></i><span>Course</span></a>
+            <a href="teacher.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+        </nav>
+    </div>
+    <!-- side bar section ends-->
+
+    <section class="watch-video">
+        <div class="video-details">
+            <video src="landig page.mp4" class="video" poster="jquery.png" controls autoplay></video>
+            <h3 class="title">complete HTML tutorial (part 01)</h3>
+            <div class="info">
+                <p><i class="fas fa-calendar"></i><span>21-04-2022</span></p>
+                <p><i class="fas fa-heart"></i><span>45 likes</span></p>
+            </div>
+            <div class="tutor">
+                <img src="man.png" alt="">
+                <div>
+                    <h3>Pravesh kumar</h3>
+                    <span>developer</span>
+                </div>
+            </div>
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">view playlist</a>
+                <button type="submit"><i class="fas fa-heart"><span>like</span></i></button>
+            </form>
+            <div class="description">
+                <p>Lorem hii i am line baar fgg doloe doint ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sed, alias? Illo nesciunt saepe nostrum aspernatur
+                    suscipit vero est, fuga voluptatum corrupti! Eos, ipsa sequi.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Tempore explicabo iste sint
+                    quisquam, aliquam vero do the the idding id jd lorem architecto ipsa a,
+                    porro nobis amet soluta fugiat odio
+                    commodi minus iusto, consequuntur excepturi?</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="comments">
+        <h1 class="heading">add a comment</h1>
+        <form action="" method="post" class="add-comment">
+
+            <textarea name="comment_box" required placeholder="write your comments......." maxlength="1000" cols="30"
+                rows="10"></textarea>
+            <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+        </form>
+        <h1 class="heading">6 comments</h1>
+        <div class="show-comments">
+            <div class="box">
+                <div class="user">
+                    <img src="man.png" alt="">
+                    <div>
+                        <h3>Anand kumar yadav</h3>
+                        <span>03-11-2019</span>
+                    </div>
+                </div>
+                <p class="text">this is comment from ananad yadav</p>
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
+                    <button type="submit" name="delete_comment" class="inline-delete-btn">delete comment</button>
+                </form>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="man.png" alt="">
+                    <div>
+                        <h3>Mukesh</h3>
+                        <span>13-10-2019</span>
+                    </div>
+                </div>
+                <p class="text"> wow amazing video!
+                    thanks for source code!
+                </p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="man2.png" alt="">
+                    <div>
+                        <h3>Mukesh</h3>
+                        <span>13-10-2019</span>
+                    </div>
+                </div>
+                <div class="comment-box"> amazing way of teaching! thank you so much!
+                </div>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="man2.png" alt="">
+                    <div>
+                        <h3>shivam patel</h3>
+                        <span>03-03-2022</span>
+                    </div>
+                </div>
+                <div class="comment-box"> loved it! thanks for the tutorial!
+                </div>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="man.png" alt="">
+                    <div>
+                        <h3>Mukesh maurya</h3>
+                        <span>22-11-2018</span>
+                    </div>
+                </div>
+                <div class="comment-box"> this is what I have been looking for! thank you so much!
+                </div>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="man2.png" alt="">
+                    <div>
+                        <h3>Mukesh maurya</h3>
+                        <span>22-11-2018</span>
+                    </div>
+                </div>
+                <div class="comment-box"> this is what I have been looking for! thank you so much!
+                </div>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="man.png" alt="">
+                    <div>
+                        <h3>Mukesh maurya</h3>
+                        <span>22-11-2018</span>
+                    </div>
+                </div>
+                <div class="comment-box"> this is what I have been looking for! thank you so much!
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+    <footer class="footer">hii Amit</footer>
+    <!-- footer section ends -->
+    <!-- custom js file  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
